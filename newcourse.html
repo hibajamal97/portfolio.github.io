@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+</head>
+<body>
+    <form action="">
+    <label for="course-name">Course name</label>
+    <input type="text" id="course-name" placeholder="course name">
+    <br><br>
+    <label for="course-price">Course price</label>
+    <input type="number" id="course-price" placeholder="course price">
+    <br><br>    
+    <label for="course-image">Course image</label>
+    <input type="file" id="course-image" placeholder="course image URL">
+    <br><br>
+    <fieldset>
+        <legend>[online/onsite]</legend>
+        <input type="radio" name="online/onsite" id="online" value="online">
+        <label for=" online"> online</label>
+        <br><br>
+        <input type="radio" name="online/onsite" id="onsite" value="onsite">
+        <label for="onsite">onsite</label>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Choose your instructor</legend>
+
+        <input type="checkbox"  id="1" value="Tarik">
+        <label for="1"> Tarik</label><br>
+        <input type="checkbox"  id="2" value="Omar">
+        <label for="2"> Omar</label><br>
+        <input type="checkbox"  id="3" value="Huda">
+        <label for="3"> Huda</label><br>
+
+    </fieldset>
+    <button type="submit">Add Course</button>
+    <button type="reset">clear</button>
+</form>
+<a href="./mycourses.html"><button>Go to My Courses page</button></a>
+<a href="./index.html"><button>Back to home-></button></a>
+</body>
+</html>
